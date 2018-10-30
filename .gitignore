@@ -1,0 +1,17 @@
+### Project ###
+coverage.xml
+junit-*.xml
+junit.xml
+venv/
+
+### OS X ###
+.DS_Store
+*~
+
+### Python ###
+*.py[cod]
+.cache
+__pycache__
+
+### PyCharm ###
+.idea
