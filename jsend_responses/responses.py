@@ -53,14 +53,3 @@ class ErrorResponse(JsonResponse):
             'data': data,
         }
         super().__init__(data=data, status=status_code)
-
-
-c = {
-    "status": "success",
-    "data": {
-        "object": {
-            "id": 1,
-            "name": "Fist object"
-        }
-     }
-}

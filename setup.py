@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="djangojsendresponses",
-    version="1.0.0",
+    version="0.1.0",
     url="https://github.com/Ibrohimbek/django-jsend-responses",
     author="Ibrohim Ermatov",
     author_email="ibrohimbek@gmail.com",
