@@ -23,7 +23,22 @@ Install using `pip`...
     pip install djangojsendresponses
 
 
-# Examples
+# Using in a code
+
+```python
+from jsend_responses import SuccessResponse
+from rest_framework.views import APIView
+
+
+class DriverAPIView(APIView):
+    def get(self):
+        driver = get_random_driver()
+        return SuccessResponse(object=driver)
+
+```
+
+# Response examples
+
 
 Success response:
 
